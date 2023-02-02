@@ -1,0 +1,55 @@
+.container{
+    width: 55vw;
+    height: 60vh;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 20px;
+}
+
+.logo_container{
+    height: 35%;
+    
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+ 
+}
+
+.logo_bg{
+    width: 100px;
+    height: 100px;
+    animation: rotation 10s infinite linear;
+}
+
+
+
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+}
+}
+
+
+
+
+.logo_name{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    z-index: 5;
+}
+
+.title{
+    height: 20%;
+    font-size: 21px;
+    font-weight: bold;
+    text-align: center;
+}
+
